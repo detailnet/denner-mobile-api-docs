@@ -1502,13 +1502,13 @@
                 "type" : "string",
                 "description" : "Name of the property to filter against"
               },
-              "type" : {
-                "type" : "string",
-                "description" : "Data type of the value (e.g. \"integer\")"
-              },
               "operator" : {
                 "type" : "string",
                 "description" : "Operator to compare the value (e.g. \"=\")"
+              },
+              "type" : {
+                "type" : "string",
+                "description" : "Data type of the value (e.g. \"integer\")"
               }
             }
           },
@@ -2066,7 +2066,7 @@
     "FeaturedArticle" : {
       "allOf" : [ {
         "$ref" : "#/definitions/OnlinePublicationArticle"
-      }, { } ]
+      } ]
     },
     "OnlinePublication" : {
       "type" : "object",
